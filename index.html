@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <script src="script.js"></script>
+
+    <div>
+      <H1 id="text1"> Hello World </H1>
+      <button onclick="changetext1()"> Click me </button>
+      <button onclick="changeimg()"> Click me </button> 
+      <button onclick="window.alert('You have been warned')"> Click me </button> 
+      <button onclick="increasenum()"> Click me</button>
+    </div>
+
+    <img id="img" src="TheDowser.png" style="height: 450px; width: 300px;">
+
+    <h1 id="num"> 0 </h1>
+    <div> <!--Username submit-->
+      <h1 id="username"> 0 </h1>
+      <input id="myinput"> <br>
+      <button onclick="getusername()"> Submit </button>
+    </div>
+
+    <div style="text-align: center;"> <!--Counter-->
+      <h1 id="counter"> 0 </h1>
+      <button onclick="counter.decrease()"> Decrease </button> 
+      <button onclick="counter.reset()"> Reset </button>
+      <button onclick="counter.increase()"> Increase </button>
+    </div>
+  </body>
+
+</html>
